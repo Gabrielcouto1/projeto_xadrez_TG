@@ -9,6 +9,7 @@
   "author": "Gabriel Couto de Freitas <gabrielcouto1@ufu.br || gabriel.freitas.pb@compasso.com.br>",
   "license": "ISC",
   "dependencies": {
+    "@chrisoakman/chessboardjs": "^1.0.0",
     "express": "^4.18.2",
     "express-handlebars": "^7.0.7",
     "hbs": "^4.2.0"
