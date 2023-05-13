@@ -60,15 +60,17 @@ resetButton.addEventListener("click", function() {
 });
 
 function printWinRateDiff(node, previousWWR, previousBWR) {
-    if (previousWWR!=0) {
-        winRateDiff.textContent =`Diferença da porcentagem de vitória: ${node.whiteWinRate - previousWWR}%`;
-        loseRateDiff.textContent=`Diferença da porcentagem de derrota: ${node.blackWinRate - previousBWR}%`;
-        drawRateDiff.textContent=`Diferença da porcentagem de empate: ${node.drawRate - (100-(previousBWR+previousWWR))}%`;
-    }
-    else{
-        winRateDiff.textContent =`Porcentagem de vitória: ${node.whiteWinRate }%`;
-        loseRateDiff.textContent=`Porcentagem de derrota: ${node.blackWinRate }%`;
-        drawRateDiff.textContent=`Porcentagem de empate: ${node.drawRate}%`;
+    if (node!=null) {
+        if (previousWWR!=0) {
+            winRateDiff.textContent =`Diferença da porcentagem de vitória: ${node.whiteWinRate - previousWWR}%`;
+            loseRateDiff.textContent=`Diferença da porcentagem de derrota: ${node.blackWinRate - previousBWR}%`;
+            drawRateDiff.textContent=`Diferença da porcentagem de empate: ${node.drawRate - (100-(previousBWR+previousWWR))}%`;
+        }
+        else{
+            winRateDiff.textContent =`Porcentagem de vitória: ${node.whiteWinRate }%`;
+            loseRateDiff.textContent=`Porcentagem de derrota: ${node.blackWinRate }%`;
+            drawRateDiff.textContent=`Porcentagem de empate: ${node.drawRate}%`;
+        }
     }
 }
 
@@ -90,6 +92,9 @@ function printPlay(foundNode, i) {
         whiteWR.textContent        =``;
         blackWr.textContent        =``;
         drawRate.textContent       =``;
+        winRateDiff.textContent    =``;
+        loseRateDiff.textContent   =``;
+        drawRateDiff.textContent   =``;
         console.log('Nó não encontrado.');
     }
 }
