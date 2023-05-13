@@ -1,14 +1,32 @@
 <html>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
-<head>
   
-  <h1>Explorador de aberturas de xadrez</h1>
-    
-</head>
-<body>
-  <button onclick="location.href= 'explore.html'">Explorar as aberturas em visão de árvore</button>
-  <button onclick="location.href= 'simulate.html'">Simular aberturas de xadrez e verificar as probabilidades</button>
-</body>
+  <head>
+    <link rel="stylesheet" href="css\styles.css">
+    <title>Explorador de aberturas de xadrez</title>
+  </head>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-</html>
+  <body>
+    <div class="title-bar"></div>
+    <h1 class="text-center my-5">
+      <span class="fw-bold" id="title">Explorador de aberturas de xadrez</span>
+    </h1>
+
+    <button id="btn-explorar" class="my-button" onclick="location.href= 'explore.html'">
+      Explorar as aberturas em visão de árvore
+    </button>
+
+    <button id="btn-simular" class="my-button" onclick="location.href= 'simulate.html'">
+      Simular aberturas de xadrez e verificar as probabilidades
+    </button>
+
+    <div class="footer">
+      <div class="container">
+        <p class="text text-black">Grupo: Ana Bárbara, Gabriel Couto e Vitor Gomes</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  
+

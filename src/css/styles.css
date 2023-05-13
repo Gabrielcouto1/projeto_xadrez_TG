@@ -1,3 +1,119 @@
-.hide{
-    display: none;
+/* faixa colorida no inicio da pagina */
+.title-bar {
+    background-color: #e7d8e7; /* cor de fundo da faixa */
+    height: 80px; /* altura da faixa */
+    margin-bottom: 1px; /* espaço entre a faixa e o título */
+  }
+
+/* titulo */
+#title {
+    margin-top: 10px;
+    font-family: Snell Roundhand, cursive;
+    color: #624069;
+    font-size: 1.5em;
 }
+  
+/* faixa colorida no fim da pagina */
+.footer {
+    background-color: #e7d8e7;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+} 
+
+/* botoes do inicio */
+.my-button {
+    display: block;
+    margin: 20px 0;
+    height: 60px;
+    width: 510px;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #664556;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+  
+.my-button {
+    margin: 130px;
+    padding: 15px;
+    font-size: 15px;
+    background-color: #c280cf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 5px;
+}
+  
+.my-button:hover {
+    background-color: #d66ea2;
+}
+
+
+/* botoes do explorar */
+#container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  #board1 {
+    margin-right: 20px;
+  }
+  
+  #primeira-rodada,
+  #segunda-rodada,
+  #terceira-rodada {
+    margin-top: 20px;
+    margin-left: auto;
+    float: right;
+  }
+  
+ 
+
+
+/*botões de voltar*/
+#voltar-btn{
+    color: #FFF;
+    background-color: #9c919b;
+    border: 1px solid transparent;
+}
+
+#voltar-btn:hover{
+    background-color: #FFF;
+    color: #afa8a8;
+    border-color: #181414;
+}
+
+/* botao de resetar tabuleiro */
+#reset-btn{
+    color: #FFF;
+    background-color: #9c919b;
+    border: 1px solid transparent;
+}
+
+#reset-btn:hover{
+    background-color: #FFF;
+    color: #afa8a8;
+    border-color: #181414;
+}
+
+#board1 {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #buttons-container {
+    float: right;
+}
+
+  
+  
