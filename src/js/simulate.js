@@ -38,7 +38,7 @@ function onDrop (source, target, piece) {
 
 //Funcao para resetar o tabuleiro quando clicar no botao de reset
 resetButton.addEventListener("click", function() {
-    var board = ChessBoard('board1', config);
+    board = ChessBoard('board1', config);
     i=1;    
     tree=decTree.tree;
     resetHtml();
