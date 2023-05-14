@@ -115,5 +115,7 @@
     float: right;
 }
 
-  
+.highlight, .highlight:hover, .highlight:active, .highlight:focus {
+    color: green;
+}
   

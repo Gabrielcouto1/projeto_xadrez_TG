@@ -79,12 +79,14 @@ for (let i = 0; i < btn1.length; i++) {
     element.addEventListener("click", function() {
         board.move(`${node.source}-${node.target}`);
         printPlay(node);
-
+        this.classList.add("highlight");
+        
         for (let j = 0; j < btn1.length; j++) {
             const element1 = btn1[j];
             const element2 = btn2[j];
             element1.classList.add("hide");
             element2.classList.remove("hide");
+            element1.disabled=true;
         }
         addBtn2Listener(i)
     });
@@ -97,16 +99,19 @@ function addBtn2Listener(aux1) {
         const node    = tree.children[aux1].children[i];
     
         element.textContent=node.name;
-    
+        
+
         element.addEventListener("click", function() {
             board.move(`${node.source}-${node.target}`);
             printPlay(node);
+            this.classList.add("highlight");
             
             for (let j = 0; j < btn2.length; j++) {
                 const element1 = btn2[j];
                 const element2= btn3[j];
                 element1.classList.add("hide");
                 element2.classList.remove("hide");
+                element1.disabled=true;
             }
             addBtn3Listener(aux1,i);
         });
@@ -120,14 +125,16 @@ function addBtn3Listener(aux1, aux2) {
         const node    = tree.children[aux1].children[aux2].children[i];
     
         element.textContent=node.name;
-    
+
         element.addEventListener("click", function() {
             board.move(`${node.source}-${node.target}`);
             printPlay(node);
+            this.classList.add("highlight");
 
             for (let j = 0; j < btn2.length; j++) {
                 const element1 = btn3[j];
                 element1.classList.add("hide");
+                element1.disabled=true;
             }
         });
     }
