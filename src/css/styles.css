@@ -84,12 +84,19 @@
     color: #FFF;
     background-color: #9c919b;
     border: 1px solid transparent;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 230px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    
 }
 
 #voltar-btn:hover{
-    background-color: #FFF;
+    background-color: transparent;
     color: #afa8a8;
-    border-color: #181414;
+    border-color: #8a778f;
 }
 
 /* botao de resetar tabuleiro */
