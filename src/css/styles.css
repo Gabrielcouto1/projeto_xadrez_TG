@@ -133,3 +133,36 @@
     color: green;
 }
   
+#informacoes_simulate{
+    width: 30%;
+	height:250px;
+	font-family: sans-serif;
+	font-size: 0.7rem;
+    position: absolute;
+    top: 150px;
+    left: 30px;
+		
+	float: left;
+	background: #FFFFFF;
+	
+   -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+}
+
+#porcentagem{
+    width: 30%;
+	height:250px;
+	font-family: sans-serif;
+	font-size: 0.7rem;
+    position: absolute;
+    top: 150px;
+    right: 30px;
+		
+	float: right;
+	background: #FFFFFF;
+	
+   -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+   box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+}
