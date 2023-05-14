@@ -7,11 +7,14 @@ const pickPercentage = document.getElementById('pickPercentage');
 const whiteWR        = document.getElementById('whiteWR');
 const blackWr        = document.getElementById('blackWR');
 const drawRate       = document.getElementById('drawRate');
+const winRateDiff    = document.getElementById('winRate-diff');
+const loseRateDiff   = document.getElementById('loseRate-diff');
+const drawRateDiff   = document.getElementById('drawRate-diff');
 const resetButton    = document.getElementById("reset-btn");
 
 //Arvore de decisao importada do arquivo tree.js
 let tree = decTree.tree;
-
+let previousBWR, previousWWR;
 //Configuracoes do tabuleiro
 let config = {
     draggable: false,
@@ -147,25 +150,23 @@ function printPlay(foundNode) {
     whiteWR.textContent        =`Porcentagem de vitória das brancas: ${foundNode.whiteWinRate}%`;
     blackWr.textContent        =`Porcentagem de vitória das pretas: ${foundNode.blackWinRate}%`;
     drawRate.textContent       =`Porcentagem de empate: ${foundNode.drawRate}%`;
+    
+    if(foundNode.moveNumber==1){
+        winRateDiff.textContent  = `Porcentagem de vitória: ${foundNode.whiteWinRate}%`;
+        loseRateDiff.textContent = `Porcentagem de derrota: ${foundNode.blackWinRate}%`;
+        drawRateDiff.textContent = `Pxorcentagem de empate: ${foundNode.drawRate}%`;
+    }
+    else{
+        winRateDiff.textContent  = `Porcentagem de vitória: ${foundNode.whiteWinRate-previousWWR}%`;
+        loseRateDiff.textContent = `Porcentagem de derrota: ${foundNode.blackWinRate-previousBWR}%`;
+        drawRateDiff.textContent = `Porcentagem de empate: ${foundNode.drawRate - (100-(previousBWR+previousWWR))}%`;
+    }
+    previousWWR = foundNode.whiteWinRate;
+    previousBWR = foundNode.blackWinRate;
+    return;            
 }
 
 //Funcao para resetar o tabuleiro quando clicar no botao de reset
 resetButton.addEventListener("click", function() {
-    board = ChessBoard('board1', config);
-    resetHtml();
-    for (let i = 0; i < btn1.length; i++) {
-        const element = btn1[i];
-        btn1[i].classList.remove("hide");
-        btn2[i].classList.add("hide");
-        btn3[i].classList.add("hide");
-    }
+    location.reload();
 });
-
-function resetHtml() {
-    moveNumber.textContent=`Jogada 1`;
-    name.textContent=``;
-    pickPercentage.textContent=``;
-    whiteWR.textContent=``;
-    blackWr.textContent=``;
-    drawRate.textContent=``;
-}

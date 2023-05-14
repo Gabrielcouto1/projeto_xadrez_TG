@@ -51,14 +51,6 @@ function onDrop (source, target, piece) {
     i++;
 }
 
-//Funcao para resetar o tabuleiro quando clicar no botao de reset
-resetButton.addEventListener("click", function() {
-    board = ChessBoard('board1', config);
-    i=1;    
-    tree=decTree.tree;
-    resetHtml();
-});
-
 function printWinRateDiff(node, previousWWR, previousBWR) {
     if (node!=null) {
         if (previousWWR!=0) {
@@ -99,12 +91,6 @@ function printPlay(foundNode, i) {
     }
 }
 
-//Reseta o html pro começo
-function resetHtml() {
-    moveNumber.textContent=`Jogada 1`;
-    name.textContent=``;
-    pickPercentage.textContent=``;
-    whiteWR.textContent=``;
-    blackWr.textContent=``;
-    drawRate.textContent=``;
-}
+resetButton.addEventListener("click", function() {
+    location.reload();
+});
