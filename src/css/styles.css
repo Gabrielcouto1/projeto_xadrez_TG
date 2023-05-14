@@ -63,7 +63,8 @@
     display: flex;
     flex-wrap: wrap;
   }
-  
+
+/* tabuleiro */
   #board1 {
     margin-right: 20px;
   }
@@ -106,7 +107,7 @@
     border: 1px solid transparent;
     position: absolute;
     left: 40%;
-    top:75%;
+    top:78%;
     width: 20%;
     text-align: center;
     font-size: 18px;
@@ -133,6 +134,7 @@
     color: green;
 }
   
+/* box com as informacoes da pagina simulate */
 #informacoes_simulate{
     width: 30%;
 	height:250px;
@@ -150,6 +152,7 @@
    box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
 }
 
+/* box com as informacoes das porcentagens */
 #porcentagem{
     width: 30%;
 	height:250px;
