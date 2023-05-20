@@ -23,34 +23,26 @@
 } 
 
 /* botoes do inicio */
-.my-button {
-    display: block;
-    margin: 20px 0;
-    height: 60px;
-    width: 510px;
-    text-align: center;
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #fff;
-    background-color: #664556;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-}
+
   
 .my-button {
-    margin: 130px;
-    padding: 15px;
-    font-size: 15px;
+    display: block;
+    margin: auto auto;
+    height: 10%;
+    width: 40%;
+    text-align: center;
+    padding: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
     background-color: #c280cf;
     color: #fff;
-    border: none;
-    border-radius: 5px;
+    border: 1px solid #fff;
+    border-radius: 12px;
     cursor: pointer;
     display: inline-block;
-    margin-right: 5px;
+    /* margin-right: 3%;
+    margin-right: auto; */
+    transition: all 0.3s ease-in-out;
 }
   
 .my-button:hover {
