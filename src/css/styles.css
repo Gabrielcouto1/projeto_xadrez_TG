@@ -1,6 +1,6 @@
 /* faixa colorida no inicio da pagina */
 .title-bar {
-    background-color: #e7d8e7; /* cor de fundo da faixa */
+    background-color: #f00d0d; /* cor de fundo da faixa */
     height: 18%; /* altura da faixa */
     margin-bottom: 0.5%; /* espaço entre a faixa e o título */
   }
@@ -9,13 +9,13 @@
 #title {
     margin-top: 10px;
     font-family: Snell Roundhand, cursive;
-    color: #624069;
+    color: #daa520;
     font-size: 1.5em;
 }
   
 /* faixa colorida no fim da pagina */
 .footer {
-    background-color: #e7d8e7;
+    background-color: #f00d0d;
     padding: 20px 0;
     position: absolute;
     bottom: 0;
@@ -35,7 +35,7 @@
     
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: #c280cf;
+    background-color: #db4040;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 12px;
@@ -46,7 +46,7 @@
 }
   
 .my-button:hover {
-    background-color: #d66ea2;
+    background-color: #f51515;
 }
 
 
@@ -74,8 +74,9 @@
 /*botões de voltar*/
 #voltar-btn{
     color: #FFF;
-    background-color: #9c919b;
+    background-color: #f51515;
     border: 1px solid transparent;
+    border-color: #666464;
     font-size: 20px;
     border-radius: 8px;
     width: 230px;
@@ -86,15 +87,15 @@
 }
 
 #voltar-btn:hover{
-    background-color: transparent;
-    color: #afa8a8;
-    border-color: #8a778f;
+    background-color: #FFF;
+    color: #f51515;
+    border-color: #363535;
 }
 
 /* botao de resetar tabuleiro */
 #reset-btn{
     color: #FFF;
-    background-color: #9c919b;
+    background-color: #daa520;
     border: 1px solid transparent;
     position: absolute;
     left: 40%;
@@ -107,7 +108,7 @@
 
 #reset-btn:hover{
     background-color: #FFF;
-    color: #afa8a8;
+    color: #daa520;
     border-color: #181414;
 }
 
@@ -122,7 +123,7 @@
 }
 
 .highlight, .highlight:hover, .highlight:active, .highlight:focus {
-    color: rgb(128, 0, 96);
+    color: rgb(255, 12, 12);
 }
   
 /* box com as informacoes das jogadas*/
