@@ -129,7 +129,7 @@
     border: 1px solid transparent;
     position: absolute;
     left: 40%;
-    top:83%;
+    top:67%;
     width: 20%;
     text-align: center;
     font-size: 18px;
@@ -161,7 +161,7 @@
 #informacoes{
     width: 30%;
 	height:50%;
-	font-size: 0.7rem;
+	font-size: 1rem;
     position: absolute;
     top: 20%;
     left: 2%;
@@ -179,7 +179,7 @@
 #porcentagem{
     width: 30%;
 	height:50%;
-	font-size: 0.7rem;
+	font-size: 1rem;
     position: absolute;
     top: 20%;
     right:2%;
@@ -187,9 +187,9 @@
 	float: right;
 	background: #FFFFFF;
 	
-   -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
-   -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
-   box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
+    box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
 }
 
 #cabecalho-outros{
