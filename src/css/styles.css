@@ -82,12 +82,18 @@
 }
 
 .buttons-explore:disabled{
-    color: #FFF;
-    background-color: #FFF;
+    color: #321515;
+    background-color: #b2a5a5;
 }
 
 .buttons-explore:hover{
-    
+    color: #FFF;
+    background-color: #daa520;
+}
+
+.buttons-explore:disabled:hover{
+    color: #321515;
+    background-color: #b2a5a5;
 }
 
 /*botões de voltar*/
