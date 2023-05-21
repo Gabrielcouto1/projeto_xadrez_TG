@@ -101,19 +101,24 @@
 #voltar-btn{
     color: #FFF;
     background-color: #f51515;
+    background-color: #daa520 ;
     border: 1px solid transparent;
+    border-color: #666464;
     font-size: 20px;
     border-radius: 8px;
     width: 230px;
     position: absolute;
     top: 8%;
+    top: 30%;
     left: 5%;
-
+    margin-top: -0.4%;
 }
 
 #voltar-btn:hover{
     background-color: #FFF;
     color: #f51515;
+    background-color: #e7e0e0;
+    color: #0c0c0b;
     border-color: #363535;
 }
 
