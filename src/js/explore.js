@@ -146,6 +146,7 @@ function addBtn3Listener(aux1, aux2) {
 //Imprime uma jogada e seus atributos no html
 function printPlay(foundNode) {
     name.textContent           =`Nome: ${foundNode.name}`;
+    moveNumber.textContent     =`Jogada: ${foundNode.moveNumber}`
     pickPercentage.textContent =`Porcentagem de escolha: ${foundNode.pickPercentage}%`;
     whiteWR.textContent        =`Porcentagem de vitória das brancas: ${foundNode.whiteWinRate}%`;
     blackWr.textContent        =`Porcentagem de vitória das pretas: ${foundNode.blackWinRate}%`;
@@ -154,7 +155,7 @@ function printPlay(foundNode) {
     if(foundNode.moveNumber==1){
         winRateDiff.textContent  = `Porcentagem de vitória: ${foundNode.whiteWinRate}%`;
         loseRateDiff.textContent = `Porcentagem de derrota: ${foundNode.blackWinRate}%`;
-        drawRateDiff.textContent = `Pxorcentagem de empate: ${foundNode.drawRate}%`;
+        drawRateDiff.textContent = `Porcentagem de empate: ${foundNode.drawRate}%`;
     }
     else{
         winRateDiff.textContent  = `Porcentagem de vitória: ${foundNode.whiteWinRate-previousWWR}%`;
