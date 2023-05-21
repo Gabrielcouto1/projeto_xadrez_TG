@@ -68,8 +68,24 @@
     
 }
   
- 
+.teste1{
+    color: #FFF;
+    background-color: #f51515;
+    border: 1px solid transparent;
+    border-color: #666464;
+    font-size: 20px;
+    border-radius: 8px;
+    width: 230px;
+}
 
+.teste1:disabled{
+    color: #FFF;
+    background-color: #FFF;
+}
+
+.teste1:hover{
+    
+}
 
 /*botões de voltar*/
 #voltar-btn{
