@@ -8,7 +8,7 @@
 /* faixa colorida no inicio da pagina */
 .title-bar {
     background-color: #f00d0d; /* cor de fundo da faixa */
-    height: 15%; /* altura da faixa */
+    height: 20%; /* altura da faixa */
     width: 100%;
     position: fixed;
 }
@@ -62,6 +62,7 @@
 #container {
     display: flex;
     flex-wrap: wrap;
+    margin-top: -5.5%;
   }
 
 /* tabuleiro */
@@ -77,22 +78,22 @@
     
 }
   
-.teste1{
+.buttons-explore{
     color: #FFF;
     background-color: #f51515;
     border: 1px solid transparent;
     border-color: #666464;
-    font-size: 20px;
     border-radius: 8px;
-    width: 230px;
+    width: 130px;
+    height: 5%;
 }
 
-.teste1:disabled{
+.buttons-explore:disabled{
     color: #FFF;
     background-color: #FFF;
 }
 
-.teste1:hover{
+.buttons-explore:hover{
     
 }
 
@@ -100,6 +101,7 @@
 #voltar-btn{
     color: #FFF;
     background-color: #f51515;
+    background-color: #daa520 ;
     border: 1px solid transparent;
     border-color: #666464;
     font-size: 20px;
@@ -107,13 +109,16 @@
     width: 230px;
     position: absolute;
     top: 8%;
+    top: 30%;
     left: 5%;
-    
+
 }
 
 #voltar-btn:hover{
     background-color: #FFF;
     color: #f51515;
+    background-color: #e7e0e0;
+    color: #0c0c0b;
     border-color: #363535;
 }
 
@@ -142,7 +147,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 8%;
-  }
+}
 
 #buttons-container {
     float: right;
@@ -160,7 +165,8 @@
     position: absolute;
     top: 20%;
     left: 2%;
-		
+	
+	margin-top: -7%;
 	float: left;
 	background: #FFFFFF;
 	
@@ -177,7 +183,7 @@
     position: absolute;
     top: 20%;
     right:2%;
-		
+	margin-top: -7%;
 	float: right;
 	background: #FFFFFF;
 	
@@ -186,3 +192,9 @@
    box-shadow: 0px 3px 5px 0px rgba(184,175,184,1);
 }
 
+#cabecalho-outros{
+    height: 4%;
+    margin-top: 4.9%;
+    width: 100%;
+    margin-left: -0.5%;
+}
