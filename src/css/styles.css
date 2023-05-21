@@ -1,9 +1,6 @@
-
 *{
     font-family: Helvetica, sans-serif;
 }
-
-
 
 /* faixa colorida no inicio da pagina */
 .title-bar {
@@ -72,12 +69,6 @@
 
 }
   
-#primeira-rodada,
-#segunda-rodada,
-#terceira-rodada {
-    
-}
-  
 .buttons-explore{
     color: #FFF;
     background-color: #f51515;
@@ -86,6 +77,8 @@
     border-radius: 8px;
     width: 130px;
     height: 5%;
+    margin-top: 1%;
+    vertical-align:middle;
 }
 
 .buttons-explore:disabled{
