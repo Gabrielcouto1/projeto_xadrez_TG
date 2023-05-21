@@ -1,14 +1,21 @@
+
+*{
+    font-family: Helvetica, sans-serif;
+}
+
+
+
 /* faixa colorida no inicio da pagina */
 .title-bar {
     background-color: #f00d0d; /* cor de fundo da faixa */
-    height: 18%; /* altura da faixa */
-    margin-bottom: 0.5%; /* espaço entre a faixa e o título */
-  }
+    height: 15%; /* altura da faixa */
+    width: 100%;
+    position: fixed;
+}
 
 /* titulo */
 #title {
-    margin-top: 10px;
-    font-family: Snell Roundhand, cursive;
+    margin-top: 0.5%;
     color: #daa520;
     font-size: 1.5em;
 }
@@ -31,6 +38,7 @@
     width: 40%;
     text-align: center;
     padding: 0.5%;
+    margin-top: 15%;
 
     
     font-size: 1.5rem;
@@ -58,8 +66,9 @@
 
 /* tabuleiro */
 #board1 {
-    width: 28%;
+    width: 100%;
     margin-right: 50%;
+
 }
   
 #primeira-rodada,
@@ -132,6 +141,7 @@
     width: 500px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 8%;
   }
 
 #buttons-container {
@@ -146,7 +156,6 @@
 #informacoes{
     width: 30%;
 	height:50%;
-	font-family: sans-serif;
 	font-size: 0.7rem;
     position: absolute;
     top: 20%;
@@ -164,7 +173,6 @@
 #porcentagem{
     width: 30%;
 	height:50%;
-	font-family: sans-serif;
 	font-size: 0.7rem;
     position: absolute;
     top: 20%;
