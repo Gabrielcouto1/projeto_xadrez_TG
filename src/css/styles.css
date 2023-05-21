@@ -149,7 +149,7 @@
 }
 
 #buttons-container {
-    float: right;
+    margin-left: 1.4%;
 }
 
 .highlight, .highlight:hover, .highlight:active, .highlight:focus {
