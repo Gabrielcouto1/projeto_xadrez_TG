@@ -1,10 +1,20 @@
 *{
-    font-family: Helvetica, sans-serif;
+    font-family: "Josefin sans", Helvetica, sans-serif !important;
+}
+
+body{
+    background-color: #eaeaea;
+}
+
+button{
+    cursor: pointer;
+    transition: all 0.2s;
 }
 
 /* faixa colorida no inicio da pagina */
 .title-bar {
-    background-color: #f00d0d; /* cor de fundo da faixa */
+    background: rgb(28, 77, 180);
+        background: linear-gradient(300deg, rgba(28, 77, 180, 1) 0%, rgba(37, 134, 180, 1) 67%, rgba(26, 165, 243, 1) 94%);
     height: 20%; /* altura da faixa */
     width: 100%;
     position: fixed;
@@ -13,13 +23,14 @@
 /* titulo */
 #title {
     margin-top: 0.5%;
-    color: #daa520;
+    color: #dbdbdb;
     font-size: 1.5em;
 }
   
 /* faixa colorida no fim da pagina */
 .footer {
-    background-color: #f00d0d;
+    background: rgb(28, 77, 180);
+        background: linear-gradient(300deg, rgba(28, 77, 180, 1) 0%, rgba(37, 134, 180, 1) 67%, rgba(26, 165, 243, 1) 94%);
     padding: 20px 0;
     position: absolute;
     bottom: 0;
@@ -40,7 +51,7 @@
     
     font-size: 1.5rem;
     font-weight: bold;
-    background-color: #db4040;
+    background-color: #1aa5f3;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 12px;
@@ -51,7 +62,7 @@
 }
   
 .my-button:hover {
-    background-color: #f51515;
+    background-color: #2586b4;
 }
 
 
@@ -66,12 +77,12 @@
 #board1 {
     width: 100%;
     margin-right: 50%;
-
+    margin-top: 200px;
 }
   
 .buttons-explore{
     color: #FFF;
-    background-color: #f51515;
+    background-color: #1aa5f3;
     border: 1px solid transparent;
     border-color: #666464;
     border-radius: 8px;
@@ -99,7 +110,7 @@
 /*botões de voltar*/
 #voltar-btn{
     color: #FFF;
-    background-color: #f51515;
+    background-color: #1aa5f3;
     background-color: #daa520 ;
     border: 1px solid transparent;
     border-color: #666464;
@@ -111,11 +122,13 @@
     top: 30%;
     left: 5%;
     margin-top: -0.4%;
+    cursor: pointer;
+    transition: all 0.3s;
 }
 
 #voltar-btn:hover{
     background-color: #FFF;
-    color: #f51515;
+    color: #1aa5f3;
     background-color: #e7e0e0;
     color: #0c0c0b;
     border-color: #363535;
@@ -153,7 +166,7 @@
 }
 
 .highlight, .highlight:hover, .highlight:active, .highlight:focus {
-    color: rgb(255, 12, 12);
+    color: #1aa5f3;
 }
   
 /* box com as informacoes das jogadas*/

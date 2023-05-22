@@ -78,6 +78,23 @@ tree.children[1].children=[
     new TreeNode('f7', 'f6', 'bP', "No known name",      0, 54, 43, 3, 2)
 ];
 
+tree.children[2].children=[     
+    new TreeNode('d7', 'd5', 'bP', "Zukerfort Opening",             32, 51, 44, 5, 2),
+    new TreeNode('g8', 'f6', 'bN', "Zukerfort Opening",             16, 50, 45, 5, 2),
+    new TreeNode('c7', 'c5', 'bP', "Sicilian Invitation",           10, 50, 46, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "Queen's Gambit Invitation",     9, 52, 43, 5, 2),
+    new TreeNode('b8', 'c6', 'bN', "Black Mustang Defense",         7, 51, 45, 4, 2),
+    new TreeNode('d7', 'd6', 'bP', "Pirc Inivtation",               6, 51, 45, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "Kingside Fianccheto",           5, 49, 46, 5, 2),
+    new TreeNode('e7', 'e5', 'bP', "Ross Gambit",                   5, 53, 43, 4, 2),
+    new TreeNode('c7', 'c6', 'bP', "Slav Invitation",               5, 51, 45, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "Queenside Fianccheto",          3, 52, 44, 4, 2),
+    new TreeNode('f7', 'f5', 'bP', "Dutch Variation",               2, 51, 45, 4, 2),
+    new TreeNode('f7', 'f6', 'bP', "Arctic Defense",                1, 54, 42, 4, 2)
+];
+
+
+
 //Todas respostas para a primeira resposta da primeira abertura (King's Pawn Game)
 tree.children[0].children[0].children=[     
     new TreeNode('g1', 'f3', 'wN', "King's Knight Opening", 63, 51, 45, 4, 3),
