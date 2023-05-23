@@ -424,23 +424,8 @@ tree.children[0].children[11].children=[
     new TreeNode('d1', 'f3', 'wQ', "No knonw name", 1, 45, 52, 3, 3),
     new TreeNode('f1', 'd3', 'wB', "No knonw name", 0, 46, 51, 3, 3)
 ];
-//TO MEXENO AQ
 
 //Todas respostas para a segunda abertura (Queen's Pawn Opening)
-tree.children[1].children=[     
-    new TreeNode('d7', 'd5', 'bP', "Queen's Pawn Game", 42, 52, 44, 4, 2),
-    new TreeNode('g8', 'f6', 'bN', "Indian Defense",    20, 49, 47, 4, 2),
-    new TreeNode('e7', 'e6', 'bP', "Horwitz Defense",   10, 51, 45, 4, 2),
-    new TreeNode('e7', 'e5', 'bP', "Englund Gambit",     6, 49, 47, 4, 2),
-    new TreeNode('g7', 'g6', 'bP', "Modern Defense",     5, 49, 47, 4, 2),
-    new TreeNode('c7', 'c5', 'bP', "Benoni Defense",     5, 48, 49, 3, 2),
-    new TreeNode('d7', 'd6', 'bP', "Queen's Pawn Game",  4, 49, 47, 4, 2),
-    new TreeNode('c7', 'c6', 'bP', "No known name",      4, 50, 46, 4, 2),
-    new TreeNode('b7', 'b6', 'bP', "English Defense",    2, 50, 46, 4, 2),
-    new TreeNode('f7', 'f5', 'bP', "Dutch Defense",      2, 50, 46, 4, 2),
-    new TreeNode('b8', 'c6', 'bP', "Mikenas Defense",    1, 53, 44, 3, 2),
-    new TreeNode('f7', 'f6', 'bP', "No known name",      0, 54, 43, 3, 2)
-];
 
 tree.children[1].children[0].children=[
     new TreeNode('c2', 'c4', 'wP', "Queen's Gambit",            41, 53, 43, 4, 3),
@@ -457,7 +442,86 @@ tree.children[1].children[0].children=[
     new TreeNode('f2', 'f3', 'wP', "No known name",             0, 45, 51, 4, 3)
 ]
 
-//ANA B MEXENO AQ
+tree.children[1].children[1].children=[
+    new TreeNode('c2', 'c4', 'wP', "Normal Variation", 43, 49, 47, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "Knights Variation", 19, 49, 46, 5, 3),
+    new TreeNode('c1', 'f4', 'wB', "No known name", 15, 49, 47, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 7, 47, 48, 5, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 7, 49, 47, 4, 3),
+    new TreeNode('c1', 'g5', 'wB', "Trompowsky Attack", 4, 49, 46, 5, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 2, 48, 47, 5, 3),
+    new TreeNode('g2', 'g3', 'wP', "Tartakower Attack", 1, 48, 47, 5, 3),
+    new TreeNode('e2', 'e4', 'wP', "Omega Gambit", 1, 46, 51, 3, 3),
+    new TreeNode('d4', 'd5', 'wP', "Pawn Push Variation", 1, 44, 52, 4, 3),
+    new TreeNode('f2', 'f3', 'wP', "Paleface Attack", 1, 45, 52, 3, 3),
+    new TreeNode('f2', 'f4', 'wP', "Canard Opening", 1, 48, 48, 4, 3)
+];
+
+tree.children[1].children[2].children=[
+    new TreeNode('c2', 'c4', 'wP', "No known name", 37, 52, 44, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "No known name", 17, 52, 44, 4, 3),
+    new TreeNode('c1', 'f4', 'wB', "No known name", 16, 51, 45, 4, 3),
+    new TreeNode('e2', 'e4', 'wP', "French Defense", 12, 49, 47, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 8, 51, 45, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 4, 51, 46, 3, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 2, 51, 45, 4, 3),
+    new TreeNode('c1', 'g5', 'wB', "No known name", 1, 61, 36, 3, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name", 1, 52, 44, 4, 3),
+    new TreeNode('d4', 'd5', 'wP', "No known name", 1, 44, 52, 4, 3),
+    new TreeNode('f2', 'f4', 'wP', "No known name", 1, 51, 45, 4, 3),
+    new TreeNode('a2', 'a3', 'wP', "No known name", 1, 50, 46, 4, 3)
+];
+
+tree.children[1].children[3].children=[
+    new TreeNode('d4', 'e5', 'wP', "No known name", 51, 50, 47, 3, 3),
+    new TreeNode('c2', 'c4', 'wP', "No known name", 14, 50, 46, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "Englund Gambit Declined", 8, 49, 48, 3, 3),
+    new TreeNode('d4', 'd5', 'wP', "Englund Gambit Complex Declined", 8, 49, 48, 3, 3),
+    new TreeNode('e2', 'e3', 'wP', "Englund Gambit Declined", 8, 50, 47, 3, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 4, 50, 46, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 2, 50, 47, 3, 3),
+    new TreeNode('c1', 'f4', 'wB', "No known name", 2, 35, 63, 2, 3),
+    new TreeNode('e2', 'e4', 'wP', "Center Game", 2, 48, 48, 4, 3),
+    new TreeNode('c1', 'g5', 'wB', "No known name", 1, 53, 44, 3, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name", 0, 50, 46, 4, 3),
+    new TreeNode('f2', 'f4', 'wP', "No known name", 0, 45, 52, 3, 3)
+];
+
+tree.children[1].children[4].children=[
+    new TreeNode('c2', 'c4', 'wP', "No known name", 37, 49, 47, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "No known name", 17, 50, 46, 4, 3),
+    new TreeNode('c1', 'f4', 'wB', "No known name", 15, 49, 48, 3, 3),
+    new TreeNode('e2', 'e4', 'wP', "No known name", 12, 49, 47, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 8, 47, 49, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 4, 50, 46, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 2, 48, 47, 5, 3),
+    new TreeNode('c1', 'g5', 'wB', "No known name", 2, 48, 48, 4, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name", 1, 49, 46, 5, 3),
+    new TreeNode('h2', 'h4', 'wP', "No known name", 1, 53, 43, 4, 3),
+    new TreeNode('d4', 'd5', 'wP', "No known name", 1, 45, 52, 3, 3),
+    new TreeNode('f2', 'f4', 'wP', "No known name", 1, 47, 49, 4, 3)
+];
+
+tree.children[1].children[5].children=[
+    new TreeNode('d4', 'd5', 'wP', 'Old Benoni', 26, 50, 46, 4, 3),
+    new TreeNode('d4', 'c5', 'wP', "Benoni Gambit Accepted", 16, 46, 50, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "No known name", 15, 47, 50, 3, 3),
+    new TreeNode('g1', 'f3', 'wN', "No known name", 14, 47, 49, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 11, 48, 48, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 8, 49, 46, 5, 3),
+    new TreeNode('c1', 'f4', 'wB', "No known name", 5, 45, 52, 3, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 2, 46, 50, 4, 3),
+    new TreeNode('e2', 'e4', 'wP', "No known name", 2, 47, 50, 3, 3),
+    new TreeNode('c1', 'g5', 'wB', "No known name", 1, 47, 50, 3, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name", 0, 47, 49, 4, 3),
+    new TreeNode('f2', 'f4', 'wP', "No known name", 0, 43, 54, 3, 3)
+];
+
+tree.children[1].children[6].children=[
+    
+]
+
+
 
 
 tree.children[2].children=[     
