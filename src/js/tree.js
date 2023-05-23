@@ -62,6 +62,99 @@ tree.children[0].children=[
     new TreeNode('f7', 'f5', 'bP', "Duras Gambit",          0, 51, 46, 3, 2)
 ];
 
+//Todas respostas para a primeira resposta da primeira abertura (King's Pawn Game)
+tree.children[0].children[0].children=[     
+    new TreeNode('g1', 'f3', 'wN', "King's Knight Opening", 63, 51, 45, 4, 3),
+    new TreeNode('f1', 'c4', 'wB', "Bishp's Opening",       10, 51, 45, 4, 3),
+    new TreeNode('d2', 'd4', 'wP', "Center Game",            6, 52, 44, 4, 3),
+    new TreeNode('f2', 'f4', 'wP', "King's Gambit",          6, 53, 44, 3, 3),
+    new TreeNode('b1', 'c3', 'wN', "Vienna Game",            6, 51, 45, 4, 3),
+    new TreeNode('d2', 'd3', 'wP', "Leonardis Variation",    3, 48, 48, 4, 3),
+    new TreeNode('d1', 'h5', 'wQ', "Wayward Queen Attack",   2, 50, 46, 4, 3),
+    new TreeNode('d1', 'f3', 'wQ', "Napoleon Attack",        1, 49, 47, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "MacLeod Attack",         1, 49, 47, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "English Opening",        0, 48, 48, 4, 3),
+    new TreeNode('f2', 'f3', 'wP', "King's Head Openin",     0, 42, 54, 4, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name",          0, 48, 48, 4, 3)
+]
+
+tree.children[0].children[1].children=[
+    new TreeNode('g1', 'f3', 'wN', "Sicilian Defense", 55, 48, 48, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "Closed", 10, 49, 47, 4, 3),
+    new TreeNode('f1', 'c4', 'wB', "Bowdler Attack", 10, 45, 41, 4, 3),
+    new TreeNode('d2', 'd4', 'wP', "Smith-Morra Gambit", 9, 49, 48, 3, 3),
+    new TreeNode('c2', 'c3', 'wP', "Alapin Variation", 5, 50, 46, 4, 3),
+    new TreeNode('f2', 'f4', 'wP', "McDonnel Attack", 5, 48, 49, 3, 3),
+    new TreeNode('d2', 'd3', 'wP', "No known name", 3, 46, 50, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "Stauton-Cochrane Variation", 1, 46, 50, 4, 3),
+    new TreeNode('b2', 'b4', 'wP', "Wing Gambit", 1, 49, 47, 4, 3),
+    new TreeNode('d1', 'f3', 'wQ', "No known name", 1, 44, 53, 3, 3),
+    new TreeNode('e4', 'e5', 'wP', "No known name", 1, 45, 51, 4, 3),
+    new TreeNode('d1', 'h5', 'wQ', "No known name", 1, 42, 55, 3, 3)
+];
+
+tree.children[0].children[2].children=[
+    new TreeNode('d2', 'd4', 'wP', "Normal variation", 44, 49, 47, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "Knight Variation", 30, 48, 49, 3, 3),
+    new TreeNode('b1', 'c3', 'wN', "Queen's Knight", 7, 48, 48, 4, 3),
+    new TreeNode('f1', 'c4', 'wB', "No known name", 5, 45, 52, 3, 3),
+    new TreeNode('f2', 'f4', 'wP', "La Bourdonnais Variation", 4, 48, 49, 3, 3),
+    new TreeNode('d2', 'd3', 'wP', "King's Indiant Attack", 4, 49, 47, 4, 3),
+    new TreeNode('e4', 'e5', 'wP', "Steinitz Attack", 3, 46, 50, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "Steiner Variation", 2, 51, 45, 4, 3),
+    new TreeNode('d1', 'f3', 'wQ', "No knonw name", 1, 44, 52, 4, 3),
+    new TreeNode('b2', 'b3', 'wP', "Horwitz Attack", 1, 50, 46, 4, 3),
+    new TreeNode('d1', 'e2', 'wQ', "Chigorin Variation", 0, 53, 43, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 0, 46, 50, 4, 3)
+];
+
+tree.children[0].children[3].children=[
+    new TreeNode('e4', 'd5', 'wP', "No knonw name", 67, 50, 46, 4, 3),
+    new TreeNode('e4', 'e5', 'wP', "No knonw name", 11, 49, 47, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "Zukertort Opening", 8, 47, 50, 3, 3),
+    new TreeNode('b1', 'c3', 'wN', "No knonw name", 6, 48, 48, 4, 3),
+    new TreeNode('d2', 'd4', 'wP', "Blackmar-Diemer Gambit", 3, 49, 48, 3, 3,),
+    new TreeNode('d2', 'd3', 'wP', "No knonw name", 2, 45, 49, 4, 3),
+    new TreeNode('f2', 'f3', 'wP', "No knonw name", 1, 44, 52, 4, 3),
+    new TreeNode('d1', 'f3', 'wQ', "No knonw name", 1, 45, 52, 3, 3),
+    new TreeNode('f2', 'f4', 'wP', "Bird Opening", 1, 46, 51, 3, 3),
+    new TreeNode('f1', 'c4', 'wB', "No knonw name", 1, 35, 62, 3, 3),
+    new TreeNode('d1', 'h5', 'wQ', "No knonw name", 0, 40, 56, 4, 3),
+    new TreeNode('f1', 'd3', 'wB', "No knonw name", 0, 44, 52, 4, 3)
+];
+
+tree.children[0].children[4].children=[
+    new TreeNode('d2', 'd4', 'wP', "Caro-Kann Defense", 42, 49, 47, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "No knonw name", 30, 46, 50, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "Caro-Kann Defense", 47, 48, 5, 3),
+    new TreeNode('f1', 'c4', 'wB', "Hillbilly Attack", 7, 43, 53, 4, 3),
+    new TreeNode('f2', 'f4', 'wP', "No knonw name", 4, 48, 49, 3, 3),
+    new TreeNode('d2', 'd3', 'wP', "breyer Variation", 3, 47, 48, 5, 3),
+    new TreeNode('c2', 'c4', 'wP', "Accelerated Panov Attack", 2, 50, 45, 5, 3),
+    new TreeNode('e4', 'e5', 'wP', "No knonw name", 1, 47, 49, 4, 3),
+    new TreeNode('d1', 'f3', 'wQ', "No knonw name", 1, 44, 52, 4, 3),
+    new TreeNode('c1', 'c3', 'wP', "No knonw name", 1, 46, 51, 3, 3),
+    new TreeNode('d1', 'h5', 'wQ', "No knonw name", 0, 40, 56, 6, 3),
+    new TreeNode('g2', 'g3', 'wP', "No knonw name", 0, 46, 50, 4, 3)
+];
+
+tree.children[0].children[5].children=[
+    new TreeNode('d2', 'd4', 'wP', "Pirc Defense", 46, 49, 47, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "No knonw name", 29, 49, 48, 3, 3),
+    new TreeNode('b1', 'c3', 'wN', "No knonw name", 29, 49, 48, 3, 3),
+    new TreeNode('f1', 'c4', 'wB', "No knonw name", 7, 50, 47, 3, 3),
+    new TreeNode('f2', 'f4', 'wP', "Rat Defense", 4, 50, 47, 3, 3),
+    new TreeNode('d2', 'd3', 'wP', "No knonw name", 3, 48, 48, 4, 3),
+    new TreeNode('d1', 'f3', 'wQ', "No knonw name", 1, 48, 48, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "No knonw name", 1, 48, 48, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "No knonw name", 0, 48, 48, 4, 3),
+    new TreeNode('e4', 'e5', 'wP', "No knonw name", 0, 48, 48, 4, 3),
+    new TreeNode('d1', 'h5', 'wQ', "No knonw name", 0, 44, 52, 4, 3),
+    new TreeNode('g2', 'g3', 'wP', "No knonw name", 0, 49, 47, 4, 3)
+];
+
+//TO MEXENO AQ
+
 //Todas respostas para a segunda abertura (Queen's Pawn Opening)
 tree.children[1].children=[     
     new TreeNode('d7', 'd5', 'bP', "Queen's Pawn Game", 42, 52, 44, 4, 2),
@@ -77,6 +170,24 @@ tree.children[1].children=[
     new TreeNode('b8', 'c6', 'bP', "Mikenas Defense",    1, 53, 44, 3, 2),
     new TreeNode('f7', 'f6', 'bP', "No known name",      0, 54, 43, 3, 2)
 ];
+
+tree.children[1].children[0].children=[
+    new TreeNode('c2', 'c4', 'wP', "Queen's Gambit",            41, 53, 43, 4, 3),
+    new TreeNode('c1', 'f4', 'wB', "Accelerated Londo System",  18, 52, 44, 4, 3),
+    new TreeNode('g1', 'f3', 'wN', "Zukertort Variation",       17, 52, 44, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "Queen's Pawn Game",         10, 50, 46, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "Chigorin Variation",        6, 50, 46, 4, 3),
+    new TreeNode('e2', 'e4', 'wP', "Blackmar-Diemer Gambit",    2, 51, 46, 3, 3),
+    new TreeNode('c1', 'g5', 'wB', "Levitsky Attack",           2, 54, 43, 2, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name",             2, 49, 46, 5, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name",             1, 50, 49, 1, 3),
+    new TreeNode('f2', 'f4', 'wP', "Mason Attack",              1, 50, 45, 5, 3),
+    new TreeNode('h2', 'h3', 'wP', "No known name",             0, 49, 46, 5, 3),
+    new TreeNode('f2', 'f3', 'wP', "No known name",             0, 45, 51, 4, 3)
+]
+
+//ANA B MEXENO AQ
+
 
 tree.children[2].children=[     
     new TreeNode('d7', 'd5', 'bP', "Zukerfort Opening",             32, 51, 44, 5, 2),
@@ -155,18 +266,4 @@ tree.children[6].children=[
 
 
 
-//Todas respostas para a primeira resposta da primeira abertura (King's Pawn Game)
-tree.children[0].children[0].children=[     
-    new TreeNode('g1', 'f3', 'wN', "King's Knight Opening", 63, 51, 45, 4, 3),
-    new TreeNode('f1', 'c4', 'wB', "Bishp's Opening",       10, 51, 45, 4, 3),
-    new TreeNode('d2', 'd4', 'wP', "Center Game",            6, 52, 44, 4, 3),
-    new TreeNode('f2', 'f4', 'wP', "King's Gambit",          6, 53, 44, 3, 3),
-    new TreeNode('b1', 'c3', 'wN', "Vienna Game",            6, 51, 45, 4, 3),
-    new TreeNode('d2', 'd3', 'wP', "Leonardis Variation",    3, 48, 48, 4, 3),
-    new TreeNode('d1', 'h5', 'wQ', "Wayward Queen Attack",   2, 50, 46, 4, 3),
-    new TreeNode('d1', 'f3', 'wQ', "Napoleon Attack",        1, 49, 47, 4, 3),
-    new TreeNode('c2', 'c3', 'wP', "MacLeod Attack",         1, 49, 47, 4, 3),
-    new TreeNode('c2', 'c4', 'wP', "English Opening",        0, 48, 48, 4, 3),
-    new TreeNode('f2', 'f3', 'wP', "King's Head Openin",     0, 42, 54, 4, 3),
-    new TreeNode('g2', 'g3', 'wP', "No known name",          0, 48, 48, 4, 3)
-]
+
