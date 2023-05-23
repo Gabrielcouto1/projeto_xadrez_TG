@@ -82,7 +82,8 @@ for (let i = 0; i < btn1.length; i++) {
     element.addEventListener("click", function() {
         board.move(`${node.source}-${node.target}`);
         printPlay(node);
-        this.classList.add("highlight");
+        this.classList.add("aaaa");
+        this.classList.remove("buttons-explore");
         
         for (let j = 0; j < btn1.length; j++) {
             const element1 = btn1[j];
@@ -107,7 +108,8 @@ function addBtn2Listener(aux1) {
         element.addEventListener("click", function() {
             board.move(`${node.source}-${node.target}`);
             printPlay(node);
-            this.classList.add("highlight");
+            this.classList.add("aaaa");
+            this.classList.remove("buttons-explore");
             
             for (let j = 0; j < btn2.length; j++) {
                 const element1 = btn2[j];
@@ -132,7 +134,8 @@ function addBtn3Listener(aux1, aux2) {
         element.addEventListener("click", function() {
             board.move(`${node.source}-${node.target}`);
             printPlay(node);
-            this.classList.add("highlight");
+            this.classList.add("aaaa");
+            this.classList.remove("buttons-explore");
 
             for (let j = 0; j < btn2.length; j++) {
                 const element1 = btn3[j];

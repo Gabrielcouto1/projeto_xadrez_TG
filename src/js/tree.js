@@ -93,6 +93,66 @@ tree.children[2].children=[
     new TreeNode('f7', 'f6', 'bP', "Arctic Defense",                1, 54, 42, 4, 2)
 ];
 
+tree.children[3].children=[     
+    new TreeNode('e7', 'e5', 'bP', "King's English Variation",             32, 51, 44, 5, 2),
+    new TreeNode('g8', 'f6', 'bP', "Anglo Indian Defense",             16, 50, 45, 5, 2),
+    new TreeNode('c7', 'c5', 'bP', "Symmetrical Variation",           10, 50, 46, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "Agincourt Defense",                 9, 52, 43, 5, 2),
+    new TreeNode('d7', 'd5', 'bN', "Anglo Scandinavian Defense",         7, 51, 45, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "Great Snake Variation",               6, 51, 45, 4, 2),
+    new TreeNode('c7', 'c6', 'bP', "Caro-Kann Defensive System",           5, 49, 46, 5, 2),
+    new TreeNode('d7', 'd6', 'bP', "No known name",                   5, 53, 43, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "No known name",               5, 51, 45, 4, 2),
+    new TreeNode('f7', 'f5', 'bP', "Anglo-Dutch Defense",          3, 52, 44, 4, 2),
+    new TreeNode('b8', 'c6', 'bN', "Anglo-Lithuanian Variation",               2, 51, 45, 4, 2),
+    new TreeNode('b7', 'b5', 'bP', "Jaenisch Gambit",                1, 54, 42, 4, 2)
+];
+
+tree.children[4].children=[     
+    new TreeNode('e7', 'e5', 'bP', "No known name",             32, 51, 44, 5, 2),
+    new TreeNode('g8', 'f6', 'bP', "No known name",             16, 50, 45, 5, 2),
+    new TreeNode('c7', 'c5', 'bP', "No known name",           10, 50, 46, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "No known name",     9, 52, 43, 5, 2),
+    new TreeNode('d7', 'd5', 'bN', "No known name",         7, 51, 45, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "No known name",               6, 51, 45, 4, 2),
+    new TreeNode('c7', 'c6', 'bP', "No known name",           5, 49, 46, 5, 2),
+    new TreeNode('d7', 'd6', 'bP', "No known name",                   5, 53, 43, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "No known name",               5, 51, 45, 4, 2),
+    new TreeNode('f7', 'f5', 'bP', "No known name",          3, 52, 44, 4, 2),
+    new TreeNode('b8', 'c6', 'bN', "No known name",               2, 51, 45, 4, 2),
+    new TreeNode('b7', 'b5', 'bP', "No known name",                1, 54, 42, 4, 2)
+];
+
+tree.children[5].children=[     
+    new TreeNode('e7', 'e5', 'bP', "No known name",             32, 51, 44, 5, 2),
+    new TreeNode('g8', 'f6', 'bP', "No known name",             16, 50, 45, 5, 2),
+    new TreeNode('c7', 'c5', 'bP', "No known name",           10, 50, 46, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "Indian Defense",     9, 52, 43, 5, 2),
+    new TreeNode('d7', 'd5', 'bN', "Sicilian Invitation",         7, 51, 45, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "Symmetrical Variation",               6, 51, 45, 4, 2),
+    new TreeNode('c7', 'c6', 'bP', "No known name",           5, 49, 46, 5, 2),
+    new TreeNode('d7', 'd6', 'bP', "No known name",                   5, 53, 43, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "No known name",               5, 51, 45, 4, 2),
+    new TreeNode('f7', 'f5', 'bP', "No known name",          3, 52, 44, 4, 2),
+    new TreeNode('b8', 'c6', 'bN', "Lasker Simul Special",               2, 51, 45, 4, 2),
+    new TreeNode('b7', 'b5', 'bP', "Dutch Defense",                1, 54, 42, 4, 2)
+];
+
+tree.children[6].children=[     
+    new TreeNode('e7', 'e5', 'bP', "Modern Variation",          28, 50, 46, 4, 2),
+    new TreeNode('d7', 'd5', 'bP', "Classical Variation",       24, 50, 46, 4, 2),
+    new TreeNode('g8', 'f6', 'bN', "Indian Variation",          12, 49, 47, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "No known name",             9, 52, 45, 3, 2),
+    new TreeNode('c7', 'c5', 'bP', "English Variation",         7, 50, 46, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "Symmetrical Variation",     5, 50, 43, 7, 2),
+    new TreeNode('c7', 'c6', 'bP', "No known name",             4, 53, 46, 3, 2),
+    new TreeNode('d7', 'd6', 'bP', "No known name",             4, 50, 46, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "Symmetrical Variation",     4, 50, 46, 4, 2),
+    new TreeNode('b8', 'c6', 'bN', "No known name",             2, 51, 45, 4, 2),
+    new TreeNode('b8', 'c6', 'bP', "Dutch Variation",           1, 51, 46, 3, 2),
+    new TreeNode('a7', 'a5', 'bP', "No known name",             1, 49, 47, 4, 2)
+];
+
 
 
 //Todas respostas para a primeira resposta da primeira abertura (King's Pawn Game)

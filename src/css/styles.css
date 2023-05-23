@@ -93,6 +93,23 @@ button{
     vertical-align:middle;
 }
 
+.aaaa{
+    color: green;
+    background-color: #1aa5f3;
+    border: 1px solid transparent;
+    border-color: #666464;
+    border-radius: 8px;
+    width: 130px;
+    height: 5%;
+    margin-top: 1%;
+    vertical-align:middle;
+}
+
+.aaaa:disabled{
+    color: green;
+    background-color: #b2a5a5;
+}
+
 .buttons-explore:disabled{
     color: #321515;
     background-color: #b2a5a5;
