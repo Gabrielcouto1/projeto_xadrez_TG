@@ -96,48 +96,48 @@ tree.children[2].children=[
 ];
 
 tree.children[3].children=[     
-    new TreeNode('e7', 'e5', 'bP', "King's English Variation",             32, 51, 44, 5, 2),
-    new TreeNode('g8', 'f6', 'bP', "Anglo Indian Defense",             16, 50, 45, 5, 2),
-    new TreeNode('c7', 'c5', 'bP', "Symmetrical Variation",           10, 50, 46, 4, 2),
-    new TreeNode('e7', 'e6', 'bP', "Agincourt Defense",                 9, 52, 43, 5, 2),
-    new TreeNode('d7', 'd5', 'bN', "Anglo Scandinavian Defense",         7, 51, 45, 4, 2),
-    new TreeNode('g7', 'g6', 'bP', "Great Snake Variation",               6, 51, 45, 4, 2),
-    new TreeNode('c7', 'c6', 'bP', "Caro-Kann Defensive System",           5, 49, 46, 5, 2),
-    new TreeNode('d7', 'd6', 'bP', "No known name",                   5, 53, 43, 4, 2),
-    new TreeNode('b7', 'b6', 'bP', "No known name",               5, 51, 45, 4, 2),
-    new TreeNode('f7', 'f5', 'bP', "Anglo-Dutch Defense",          3, 52, 44, 4, 2),
-    new TreeNode('b8', 'c6', 'bN', "Anglo-Lithuanian Variation",               2, 51, 45, 4, 2),
-    new TreeNode('b7', 'b5', 'bP', "Jaenisch Gambit",                1, 54, 42, 4, 2)
+    new TreeNode('e7', 'e5', 'bP', "King's English Variation", 32, 51, 44, 5, 2),
+    new TreeNode('g8', 'f6', 'bP', "Anglo Indian Defense", 16, 50, 45, 5, 2),
+    new TreeNode('c7', 'c5', 'bP', "Symmetrical Variation", 10, 50, 46, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "Agincourt Defense", 9, 52, 43, 5, 2),
+    new TreeNode('d7', 'd5', 'bN', "Anglo Scandinavian Defense", 7, 51, 45, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "Great Snake Variation", 6, 51, 45, 4, 2),
+    new TreeNode('c7', 'c6', 'bP', "Caro-Kann Defensive System", 5, 49, 46, 5, 2),
+    new TreeNode('d7', 'd6', 'bP', "No known name", 5, 53, 43, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "No known name", 5, 51, 45, 4, 2),
+    new TreeNode('f7', 'f5', 'bP', "Anglo-Dutch Defense", 3, 52, 44, 4, 2),
+    new TreeNode('b8', 'c6', 'bN', "Anglo-Lithuanian Variation", 2, 51, 45, 4, 2),
+    new TreeNode('b7', 'b5', 'bP', "Jaenisch Gambit", 1, 54, 42, 4, 2)
 ];
 
 tree.children[4].children=[     
-    new TreeNode('e7', 'e5', 'bP', "No known name",             32, 51, 44, 5, 2),
-    new TreeNode('g8', 'f6', 'bP', "No known name",             16, 50, 45, 5, 2),
-    new TreeNode('c7', 'c5', 'bP', "No known name",           10, 50, 46, 4, 2),
-    new TreeNode('e7', 'e6', 'bP', "No known name",     9, 52, 43, 5, 2),
-    new TreeNode('d7', 'd5', 'bN', "No known name",         7, 51, 45, 4, 2),
-    new TreeNode('g7', 'g6', 'bP', "No known name",               6, 51, 45, 4, 2),
-    new TreeNode('c7', 'c6', 'bP', "No known name",           5, 49, 46, 5, 2),
-    new TreeNode('d7', 'd6', 'bP', "No known name",                   5, 53, 43, 4, 2),
-    new TreeNode('b7', 'b6', 'bP', "No known name",               5, 51, 45, 4, 2),
-    new TreeNode('f7', 'f5', 'bP', "No known name",          3, 52, 44, 4, 2),
-    new TreeNode('b8', 'c6', 'bN', "No known name",               2, 51, 45, 4, 2),
-    new TreeNode('b7', 'b5', 'bP', "No known name",                1, 54, 42, 4, 2)
+    new TreeNode('e7', 'e5', 'bP', "No known name", 32, 51, 44, 5, 2),
+    new TreeNode('g8', 'f6', 'bP', "No known name", 16, 50, 45, 5, 2),
+    new TreeNode('c7', 'c5', 'bP', "No known name", 10, 50, 46, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "No known name", 9, 52, 43, 5, 2),
+    new TreeNode('d7', 'd5', 'bN', "No known name", 7, 51, 45, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "No known name", 6, 51, 45, 4, 2),
+    new TreeNode('c7', 'c6', 'bP', "No known name", 5, 49, 46, 5, 2),
+    new TreeNode('d7', 'd6', 'bP', "No known name", 5, 53, 43, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "No known name", 5, 51, 45, 4, 2),
+    new TreeNode('f7', 'f5', 'bP', "No known name", 3, 52, 44, 4, 2),
+    new TreeNode('b8', 'c6', 'bN', "No known name", 2, 51, 45, 4, 2),
+    new TreeNode('b7', 'b5', 'bP', "No known name", 1, 54, 42, 4, 2)
 ];
 
 tree.children[5].children=[     
-    new TreeNode('e7', 'e5', 'bP', "No known name",             32, 51, 44, 5, 2),
-    new TreeNode('g8', 'f6', 'bP', "No known name",             16, 50, 45, 5, 2),
-    new TreeNode('c7', 'c5', 'bP', "No known name",           10, 50, 46, 4, 2),
-    new TreeNode('e7', 'e6', 'bP', "Indian Defense",     9, 52, 43, 5, 2),
-    new TreeNode('d7', 'd5', 'bN', "Sicilian Invitation",         7, 51, 45, 4, 2),
-    new TreeNode('g7', 'g6', 'bP', "Symmetrical Variation",               6, 51, 45, 4, 2),
-    new TreeNode('c7', 'c6', 'bP', "No known name",           5, 49, 46, 5, 2),
-    new TreeNode('d7', 'd6', 'bP', "No known name",                   5, 53, 43, 4, 2),
-    new TreeNode('b7', 'b6', 'bP', "No known name",               5, 51, 45, 4, 2),
-    new TreeNode('f7', 'f5', 'bP', "No known name",          3, 52, 44, 4, 2),
-    new TreeNode('b8', 'c6', 'bN', "Lasker Simul Special",               2, 51, 45, 4, 2),
-    new TreeNode('b7', 'b5', 'bP', "Dutch Defense",                1, 54, 42, 4, 2)
+    new TreeNode('e7', 'e5', 'bP', "No known name", 32, 51, 44, 5, 2),
+    new TreeNode('g8', 'f6', 'bP', "No known name", 16, 50, 45, 5, 2),
+    new TreeNode('c7', 'c5', 'bP', "No known name", 10, 50, 46, 4, 2),
+    new TreeNode('e7', 'e6', 'bP', "Indian Defense", 9, 52, 43, 5, 2),
+    new TreeNode('d7', 'd5', 'bN', "Sicilian Invitation", 7, 51, 45, 4, 2),
+    new TreeNode('g7', 'g6', 'bP', "Symmetrical Variation", 6, 51, 45, 4, 2),
+    new TreeNode('c7', 'c6', 'bP', "No known name", 5, 49, 46, 5, 2),
+    new TreeNode('d7', 'd6', 'bP', "No known name", 5, 53, 43, 4, 2),
+    new TreeNode('b7', 'b6', 'bP', "No known name", 5, 51, 45, 4, 2),
+    new TreeNode('f7', 'f5', 'bP', "No known name", 3, 52, 44, 4, 2),
+    new TreeNode('b8', 'c6', 'bN', "Lasker Simul Special", 2, 51, 45, 4, 2),
+    new TreeNode('b7', 'b5', 'bP', "Dutch Defense", 1, 54, 42, 4, 2)
 ];
 
 tree.children[6].children=[     
@@ -598,93 +598,93 @@ tree.children[1].children[11].children=[
 //---------------------------------------------------------------------------------
 
 tree.children[2].children[0].children=[
-    new TreeNode('d2', 'd4', 'wP', "Queen's pawn game",             34, 51, 45, 6, 3),
-    new TreeNode('g2', 'g3', 'wP', "King's Indian Attack",             25, 53, 43, 4, 3),
-    new TreeNode('c2', 'c4', 'wP', "Réti Opening",           13, 54, 42, 4, 3),
-    new TreeNode('e2', 'e4', 'wP', "Tennison Gambit",     7, 52, 44, 4, 3),
-    new TreeNode('e2', 'e3', 'wP', "No known name",         6, 51, 45, 4, 3),
-    new TreeNode('b2', 'b3', 'wP', "Nimzo-Larsen Attack",               4, 52, 43, 3, 3),
-    new TreeNode('d2', 'd3', 'wP', "Old Indian Attack",           4, 51, 45, 5, 3),
-    new TreeNode('b1', 'c3', 'wN', "Reversed MExican Defense",                   4, 45, 51, 4, 3),
-    new TreeNode('c2', 'c3', 'wP', "No known name",               1, 49, 47, 4, 3),
-    new TreeNode('f3', 'e5', 'wN', "No known name",          1, 43, 53, 4, 3),
-    new TreeNode('h2', 'h3', 'wP', "No known name",               0, 47, 49, 4,3),
-    new TreeNode('f3', 'g5', 'wN', "No known name",                0, 43, 54, 3,3)
+    new TreeNode('d2', 'd4', 'wP', "Queen's pawn game", 34, 51, 45, 6, 3),
+    new TreeNode('g2', 'g3', 'wP', "King's Indian Attack", 25, 53, 43, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "Réti Opening", 13, 54, 42, 4, 3),
+    new TreeNode('e2', 'e4', 'wP', "Tennison Gambit", 7, 52, 44, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 6, 51, 45, 4, 3),
+    new TreeNode('b2', 'b3', 'wP', "Nimzo-Larsen Attack", 4, 52, 43, 3, 3),
+    new TreeNode('d2', 'd3', 'wP', "Old Indian Attack", 4, 51, 45, 5, 3),
+    new TreeNode('b1', 'c3', 'wN', "Reversed MExican Defense", 4, 45, 51, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 1, 49, 47, 4, 3),
+    new TreeNode('f3', 'e5', 'wN', "No known name", 1, 43, 53, 4, 3),
+    new TreeNode('h2', 'h3', 'wP', "No known name", 0, 47, 49, 4,3),
+    new TreeNode('f3', 'g5', 'wN', "No known name", 0, 43, 54, 3,3)
 ]
 
 tree.children[2].children[1].children=[
-    new TreeNode('g2', 'g3', 'wP', "No known name",             31, 51, 43, 6, 3),
-    new TreeNode('d2', 'd4', 'wP', "Idian Defense",             27, 49, 46, 5, 3),
-    new TreeNode('c2', 'c4', 'wP', "Eglish Opeing",           18, 51, 43, 6, 3),
-    new TreeNode('b2', 'b3', 'wP', "Nimzo-Larswen Variation",     6, 50, 44, 6, 3),
-    new TreeNode('b1', 'c3', 'wN', "No known name",         6, 47, 49, 4, 3),
-    new TreeNode('e2', 'e3', 'wP', "Quiet System",               5, 48, 47, 5, 3),
-    new TreeNode('d2', 'd3', 'wP', "No known name",           5, 49, 46, 5, 3),
-    new TreeNode('e2', 'e4', 'wP', "Lemberger Gambit",                   2, 48, 49, 3, 3),
-    new TreeNode('c2', 'c3', 'wP', "No known name",               1, 47, 48, 5, 3),
-    new TreeNode('f3', 'e5', 'wN', "No known name",          0, 43, 53, 4, 3),
-    new TreeNode('b2', 'b4', 'wP', "Polish Opening",               0, 48, 47, 4,3),
-    new TreeNode('f3', 'g5', 'wN', "No known name",                0, 43, 54, 3,3)
+    new TreeNode('g2', 'g3', 'wP', "No known name", 31, 51, 43, 6, 3),
+    new TreeNode('d2', 'd4', 'wP', "Idian Defense", 27, 49, 46, 5, 3),
+    new TreeNode('c2', 'c4', 'wP', "Eglish Opeing", 18, 51, 43, 6, 3),
+    new TreeNode('b2', 'b3', 'wP', "Nimzo-Larswen Variation", 6, 50, 44, 6, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 6, 47, 49, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "Quiet System", 5, 48, 47, 5, 3),
+    new TreeNode('d2', 'd3', 'wP', "No known name", 5, 49, 46, 5, 3),
+    new TreeNode('e2', 'e4', 'wP', "Lemberger Gambit", 2, 48, 49, 3, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 1, 47, 48, 5, 3),
+    new TreeNode('f3', 'e5', 'wN', "No known name", 0, 43, 53, 4, 3),
+    new TreeNode('b2', 'b4', 'wP', "Polish Opening", 0, 48, 47, 4,3),
+    new TreeNode('f3', 'g5', 'wN', "No known name", 0, 43, 54, 3,3)
 ]
 
 tree.children[2].children[2].children=[
-    new TreeNode('g2', 'g3', 'wP', "No known name",             29, 52, 43, 5, 3),
-    new TreeNode('d2', 'd4', 'wP', "No known name",             16, 48, 48, 4, 3),
-    new TreeNode('c2', 'c4', 'wP', "Eglish Opeing",           18, 51, 44, 5, 3),
-    new TreeNode('e2', 'e4', 'wP', "Silician Defense",     12, 48, 48, 4, 3),
-    new TreeNode('e2', 'e3', 'wP', "No known name",         7, 50, 46, 4, 3),
-    new TreeNode('b2', 'b3', 'wP', "No known name",               5, 51, 44, 5, 3),
-    new TreeNode('d2', 'd3', 'wP', "No known name",           5, 50, 46, 4, 3),
-    new TreeNode('b1', 'c3', 'wN', "No known name",                   4, 45, 51, 4, 3),
-    new TreeNode('c2', 'c3', 'wP', "No known name",               3, 50, 46, 4, 3),
-    new TreeNode('f3', 'e5', 'wN', "No known name",          1, 42, 54, 4, 3),
-    new TreeNode('b2', 'b4', 'wP', "No known name",               0, 49, 48, 4,3),
-    new TreeNode('f3', 'g5', 'wN', "No known name",                0, 43, 54, 3,3)
+    new TreeNode('g2', 'g3', 'wP', "No known name", 29, 52, 43, 5, 3),
+    new TreeNode('d2', 'd4', 'wP', "No known name", 16, 48, 48, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "Eglish Opeing", 18, 51, 44, 5, 3),
+    new TreeNode('e2', 'e4', 'wP', "Silician Defense", 12, 48, 48, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 7, 50, 46, 4, 3),
+    new TreeNode('b2', 'b3', 'wP', "No known name", 5, 51, 44, 5, 3),
+    new TreeNode('d2', 'd3', 'wP', "No known name", 5, 50, 46, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 4, 45, 51, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 3, 50, 46, 4, 3),
+    new TreeNode('f3', 'e5', 'wN', "No known name", 1, 42, 54, 4, 3),
+    new TreeNode('b2', 'b4', 'wP', "No known name", 0, 49, 48, 4,3),
+    new TreeNode('f3', 'g5', 'wN', "No known name", 0, 43, 54, 3,3)
 ]
 
 tree.children[2].children[3].children=[
-    new TreeNode('g2', 'g3', 'wP', "No known name",             27, 55, 41, 4, 3),
-    new TreeNode('d2', 'd4', 'wP', "No known name",             27, 52, 44, 4, 3),
-    new TreeNode('c2', 'c4', 'wP', "Eglish Opeing",           12, 54, 42, 4, 3),
-    new TreeNode('e2', 'e4', 'wP', "French Defense",     12, 49, 47, 4, 3),
-    new TreeNode('e2', 'e3', 'wP', "No known name",         5, 52, 44, 4, 3),
-    new TreeNode('b1', 'c3', 'wN', "No known name",               5, 47, 49, 4, 3),
-    new TreeNode('d2', 'd3', 'wP', "No known name",           5, 54, 42, 4, 3),
-    new TreeNode('b2', 'b3', 'wP', "No known name",                   4, 54, 42, 4, 3),
-    new TreeNode('f3', 'e5', 'wN', "No known name",               1, 46, 51, 3, 3),
-    new TreeNode('c2', 'c3', 'wP', "No known name",          5, 54, 42, 4, 3),
-    new TreeNode('f1', 'g1', 'wN', "No known name",               0, 43, 53, 4,3),
-    new TreeNode('h2', 'h3', 'wP', "No known name",                0, 49, 48, 3,3)
+    new TreeNode('g2', 'g3', 'wP', "No known name", 27, 55, 41, 4, 3),
+    new TreeNode('d2', 'd4', 'wP', "No known name", 27, 52, 44, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "Eglish Opeing", 12, 54, 42, 4, 3),
+    new TreeNode('e2', 'e4', 'wP', "French Defense", 12, 49, 47, 4, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 5, 52, 44, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 5, 47, 49, 4, 3),
+    new TreeNode('d2', 'd3', 'wP', "No known name", 5, 54, 42, 4, 3),
+    new TreeNode('b2', 'b3', 'wP', "No known name", 4, 54, 42, 4, 3),
+    new TreeNode('f3', 'e5', 'wN', "No known name", 1, 46, 51, 3, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 5, 54, 42, 4, 3),
+    new TreeNode('f1', 'g1', 'wN', "No known name", 0, 43, 53, 4,3),
+    new TreeNode('h2', 'h3', 'wP', "No known name", 0, 49, 48, 3,3)
 ]
 
 tree.children[2].children[4].children=[
-    new TreeNode('d2', 'd4', 'wP', "No known name",             35, 54, 42, 4, 3),
-    new TreeNode('g2', 'g3', 'wP', "No known name",             27, 51, 45, 4, 3),
-    new TreeNode('e2', 'e4', 'wP', "Nimzowitsch Defense",           13, 49, 47, 4, 3),
-    new TreeNode('c2', 'c4', 'wP', "No known name",     9, 52, 43, 4, 3),
-    new TreeNode('b1', 'c3', 'wN', "No known name",         7, 45, 50, 5, 3),
-    new TreeNode('e2', 'e3', 'wN', "No known name",               5, 50, 46, 4, 3),
-    new TreeNode('d2', 'd3', 'wP', "No known name",           4, 50, 46, 4, 3),
-    new TreeNode('b2', 'b3', 'wP', "No known name",                   4, 50, 46, 4, 3),
-    new TreeNode('f3', 'g5', 'wN', "No known name",               1, 43, 53, 4, 3),
-    new TreeNode('c2', 'c3', 'wP', "No known name",          1, 48, 48, 4, 3),
-    new TreeNode('a2', 'a3', 'wN', "No known name",               0, 47, 49, 4,3),
-    new TreeNode('h2', 'h3', 'wP', "No known name",                0, 46, 50, 4,3)
+    new TreeNode('d2', 'd4', 'wP', "No known name", 35, 54, 42, 4, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name", 27, 51, 45, 4, 3),
+    new TreeNode('e2', 'e4', 'wP', "Nimzowitsch Defense", 13, 49, 47, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "No known name", 9, 52, 43, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 7, 45, 50, 5, 3),
+    new TreeNode('e2', 'e3', 'wN', "No known name", 5, 50, 46, 4, 3),
+    new TreeNode('d2', 'd3', 'wP', "No known name", 4, 50, 46, 4, 3),
+    new TreeNode('b2', 'b3', 'wP', "No known name", 4, 50, 46, 4, 3),
+    new TreeNode('f3', 'g5', 'wN', "No known name", 1, 43, 53, 4, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 1, 48, 48, 4, 3),
+    new TreeNode('a2', 'a3', 'wN', "No known name", 0, 47, 49, 4,3),
+    new TreeNode('h2', 'h3', 'wP', "No known name", 0, 46, 50, 4,3)
 ]
 
 tree.children[2].children[5].children=[
-    new TreeNode('d2', 'd4', 'wP', "No known name",             34, 51, 44, 4, 3),
-    new TreeNode('g2', 'g3', 'wP', "No known name",             26, 52, 44, 4, 3),
-    new TreeNode('e2', 'e4', 'wP', "Nimzowitsch Defense",           9, 49, 47, 4, 3),
-    new TreeNode('c2', 'c4', 'wP', "No known name",     10, 51, 44, 4, 3),
-    new TreeNode('b1', 'c3', 'wN', "No known name",         7, 45, 50, 5, 3),
-    new TreeNode('e2', 'e3', 'wP', "No known name",               5, 50, 46, 4, 3),
-    new TreeNode('b1', 'c3', 'wN', "No known name",           5, 48, 48, 4, 3),
-    new TreeNode('b2', 'b3', 'wP', "No known name",                   4, 44, 51, 4, 3),
-    new TreeNode('f3', 'g5', 'wN', "No known name",               1, 46, 51, 3, 3),
-    new TreeNode('c2', 'c3', 'wP', "No known name",          1, 49, 47, 4, 3),
-    new TreeNode('b2', 'b4', 'wP', "No known name",               0, 49, 47, 4,3),
-    new TreeNode('h2', 'h3', 'wP', "No known name",                0, 47, 48, 4,3)
+    new TreeNode('d2', 'd4', 'wP', "No known name", 34, 51, 44, 4, 3),
+    new TreeNode('g2', 'g3', 'wP', "No known name", 26, 52, 44, 4, 3),
+    new TreeNode('e2', 'e4', 'wP', "Nimzowitsch Defense", 9, 49, 47, 4, 3),
+    new TreeNode('c2', 'c4', 'wP', "No known name", 10, 51, 44, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 7, 45, 50, 5, 3),
+    new TreeNode('e2', 'e3', 'wP', "No known name", 5, 50, 46, 4, 3),
+    new TreeNode('b1', 'c3', 'wN', "No known name", 5, 48, 48, 4, 3),
+    new TreeNode('b2', 'b3', 'wP', "No known name", 4, 44, 51, 4, 3),
+    new TreeNode('f3', 'g5', 'wN', "No known name", 1, 46, 51, 3, 3),
+    new TreeNode('c2', 'c3', 'wP', "No known name", 1, 49, 47, 4, 3),
+    new TreeNode('b2', 'b4', 'wP', "No known name", 0, 49, 47, 4,3),
+    new TreeNode('h2', 'h3', 'wP', "No known name", 0, 47, 48, 4,3)
 ]
 tree.children[2].children[6].children=[
     new TreeNode('g2', 'g3', 'wP', "No known name", 30, 51, 44, 5, 3),
