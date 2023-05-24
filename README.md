@@ -28,10 +28,10 @@ Tendo em vista o tamanho da árvore, tivemos dificuldade em povoar a árvore, po
 1. Baixe o repositório no seu computador;
 2. Se tiver Docker instalado em seu computador, abra o terminal na pasta src e rode o comando ```sudo docker build . -t projetoxadrez```;
 3. Em seguida digite ```sudo docker run -d -p 80:80 --name projetoxadrez projetoxadrez```;
-4. Abra seu navegador e entre em [localhost](localhost).
+4. Abra seu navegador e entre em http://localhost:80.
 5. Para parar o container, digite ```sudo docker stop projetoxadrez```
 6. Para rodar novamente o containter, digite ```sudo docker start projetoxadrez``` e retorne ao passo 4
-7. O projeto atualmente está rodando em uma instância EC2 na AWS, e para acessar basta entrar em [184.72.173.89](184.72.173.89) (sujeito a estar desligado devido a custos da AWS)
+7. O projeto atualmente está rodando em uma instância EC2 na AWS, e para acessar basta entrar em http://184.72.173.89 (sujeito a estar desligado devido a custos da AWS)
 
 ***
 ### Tecnologias utilizadas
