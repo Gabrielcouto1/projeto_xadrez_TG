@@ -31,7 +31,6 @@ Tendo em vista o tamanho da árvore, tivemos dificuldade em povoar a árvore, po
 4. Abra seu navegador e entre em http://localhost:80.
 5. Para parar o container, digite ```sudo docker stop projetoxadrez```
 6. Para rodar novamente o containter, digite ```sudo docker start projetoxadrez``` e retorne ao passo 4
-7. O projeto atualmente está rodando em uma instância EC2 na AWS, e para acessar basta entrar em http://184.72.173.89 (sujeito a estar desligado devido a custos da AWS)
 
 ***
 ### Tecnologias utilizadas
@@ -39,7 +38,6 @@ Tendo em vista o tamanho da árvore, tivemos dificuldade em povoar a árvore, po
 - HTML
 - CSS
 - Docker
-- AWS instância EC2
 ***
 ### Referências
 https://lichess.org/
